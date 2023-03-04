@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">PMP-Domashna1</string>
     <string name="favorite_twitter_searches">Favorite Twitter Searches</string>
+    <string name="enter_search">Enter Twitter search query here</string>
 </resources>
