@@ -66,6 +66,7 @@
                 android:autofillHints="name"
                 android:text="@string/tagquery"
                 android:inputType="text" />
+
             <Button
                 android:id="@+id/button"
                 android:layout_width="120dp"
@@ -94,15 +95,17 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight="1"
                     android:text="AndroidFP" />
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="55dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight=".5"
                     android:text="Edit" />
             </LinearLayout>
@@ -112,15 +115,17 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight="1"
                     android:text="Deitel" />
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="55dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight=".5"
                     android:text="Edit" />
             </LinearLayout>
@@ -130,15 +135,17 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight="1"
                     android:text="Google" />
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="55dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight=".5"
                     android:text="Edit" />
             </LinearLayout>
@@ -148,15 +155,17 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight="1"
                     android:text="iPhoneFP" />
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="55dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight=".5"
                     android:text="Edit" />
             </LinearLayout>
@@ -166,15 +175,17 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight="1"
                     android:text="JavaFP" />
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="55dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight=".5"
                     android:text="Edit" />
             </LinearLayout>
@@ -184,15 +195,17 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight="1"
                     android:text="JavaHTP" />
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="55dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight=".5"
                     android:text="Edit" />
             </LinearLayout>
@@ -202,15 +215,17 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight="1"
                     android:text="Android" />
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="55dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight=".5"
                     android:text="Edit" />
             </LinearLayout>
@@ -220,15 +235,39 @@
                 android:orientation="horizontal" >
 
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="100dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight="1"
                     android:text="Java" />
+
                 <Button
-                    android:layout_width="wrap_content"
+                    android:layout_width="55dp"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:layout_weight=".5"
+                    android:text="Edit" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:text="Google" />
+
+                <Button
+                    android:layout_width="55dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="10dp"
                     android:layout_weight=".5"
                     android:text="Edit" />
             </LinearLayout>
@@ -236,7 +275,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:text="Clear Tags"
+            android:layout_marginTop="50dp"
+            android:text="Clear Tags" />
     </LinearLayout>
 </LinearLayout>
